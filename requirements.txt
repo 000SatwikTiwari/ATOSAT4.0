@@ -1,6 +1,7 @@
 pip==21.3.1 
 pandas==1.5.2
 numpy==1.23.5
+pymongo[srv]
 matplotlib==3.6.2
 seaborn==0.11.2
 scikit-learn==1.1.3
