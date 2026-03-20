@@ -15,7 +15,7 @@ from pymongo import MongoClient
 import gridfs
 
 # Set up MongoDB client and database
-client = MongoClient("mongodb://satwiksudhanshtiwari:Satwik2021@ac-0afcv37-shard-00-00.8hns6ba.mongodb.net:27017,ac-0afcv37-shard-00-01.8hns6ba.mongodb.net:27017,ac-0afcv37-shard-00-02.8hns6ba.mongodb.net:27017/?ssl=true&replicaSet=atlas-3m9dyh-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://db_sat:otXj03GNr05TcQHK@cluster0.iotuxte.mongodb.net/jobtracker?retryWrites=true&w=majority&appName=Cluster0E")
 db = client['ml_tool']
 collection = db['datasets']
 fs = gridfs.GridFS(db)
